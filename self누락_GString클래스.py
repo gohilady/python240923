@@ -8,7 +8,7 @@ class DemoString:
     def set(self, msg):
         self.strName = msg
     def print(self):
-        #약간의 버그 - 전역변수 잘못 호출
+        #약간의 버그 - 전역변수 잘못 호출 / 수정완료
         print(self.strName)
 
 #인스턴스 생성
