@@ -243,7 +243,7 @@
    <sender>pushButton_4</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
-   <slot>getProduct()</slot>
+   <slot>getProducts()</slot> <!-- getProduct to getProducts -->
    <hints>
     <hint type="sourcelabel">
      <x>375</x>
@@ -276,6 +276,6 @@
   <slot>addProduct()</slot>
   <slot>removeProduct()</slot>
   <slot>updateProduct()</slot>
-  <slot>getProduct()</slot>
+  <slot>getProducts()</slot> <!-- getProduct to getProducts -->
  </slots>
 </ui>
